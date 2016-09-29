@@ -15,14 +15,29 @@
     GENERAL STYLES
 ==================================================*/
 
+
+@font-face {
+    font-family: 'acremedium';
+    src: url('../fonts/acre-medium-webfont.eot');
+    src: url('../fonts/acre-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/acre-medium-webfont.woff2') format('woff2'),
+         url('../fonts/acre-medium-webfont.woff') format('woff'),
+         url('../fonts/acre-medium-webfont.ttf') format('truetype'),
+         url('../fonts/acre-medium-webfont.svg#acremedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body {
-          font-family:'Open Sans', sans-serif;
+    font-family:acremedium;
     font-size:14px;
-    background-image:url(../img/sativa.png);
+    background-image:url(../img/traveler.jpg);
+    background-size: 1500px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family:'Open Sans', sans-serif;
+    font-family:acremedium;
 }
 
 h1 {
@@ -49,7 +64,7 @@ margin: 5px auto 40px;
 
 h2 {
     line-height:50px;
-    color:#006eff;
+    color:#ffffff;
 }
 h3 {
     line-height:30px;
@@ -109,7 +124,7 @@ section {
 #home-sec {
 
 
-background: url(../img/Travel.jpg) no-repeat 50% 50%;
+background: url(../img/traveler.jpg) no-repeat 50% 50%;
 background-attachment: fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -120,13 +135,12 @@ display: block;
 height: auto;
  padding-top:190px;
     padding-bottom:200px;
-    color:#00a3ff;
+    color:#ffffff;
 }
 
 .head-main {
     font-size:60px ;
     font-weight:900;
-    border:5px double #00a3ff;
     padding:5px;
     text-transform:uppercase;
     /*text-shadow: -1px 0 #b5b5b5, .5px 0 #b5b5b5, 0 .5px #b5b5b5, 0 -1px #b5b5b5; */
@@ -134,7 +148,7 @@ height: auto;
 .head-sub-main {
     font-size:23px ;
     font-weight:500;
-    padding:50px 20px 10px 20px;
+    padding:0px 20px 10px 20px;
     text-transform:uppercase;
 
 }
@@ -142,7 +156,7 @@ height: auto;
     font-size:18px ;
     font-weight:900;
     padding:5px 20px 20px 20px;
-    border:1px dotted #fff;
+    border:1px dotted #ffffff;
     padding:5px;
 }
 
@@ -155,7 +169,7 @@ height: auto;
 }
 
 .navbar-inverse {
-background: #0000FF;
+background: transparent;
 min-height: 60px;
 padding-top: 5px;
 
@@ -167,9 +181,10 @@ padding-top: 5px;
 
 .navbar-inverse .navbar-brand {
 	color: #ffffff;
+  text-shadow: -1px 0 #b5b5b5, .5px 0 #b5b5b5, 0 .5px #b5b5b5, 0 -1px #b5b5b5;
 	font-weight: bolder;
 	font-size: 25px;
-    font-weight:900;
+  font-weight:900;
 	letter-spacing: 2px;
 }
 .navbar-inverse :hover .navbar-brand:hover {
@@ -179,7 +194,8 @@ padding-top: 5px;
 color: #FFFFFF;
 }
 .navbar-inverse {
-border-color: rgba(#0000ff, 0.87);
+border-color: transparent;
+text-shadow: -1px 0 #b5b5b5, .5px 0 #b5b5b5, 0 .5px #b5b5b5, 0 -1px #b5b5b5;
 }
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
 border-color: #E91C1C;
@@ -318,7 +334,7 @@ border: 1px solid #e1e1e1;
 
 
 #footer {
-    background-color:#E91C1C;
+    background-color:#4169E1;
     color:#fff;
     padding:20px 50px 20px 50px;
     text-align:right;
