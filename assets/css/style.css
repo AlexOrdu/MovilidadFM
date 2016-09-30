@@ -11,33 +11,33 @@
     ========================================================  */
 
 
+    @font-face {
+        font-family: 'acremedium';
+        src: url('acre-medium-webfont.eot');
+        src: url('../fonts/acre-medium-webfont.eot?#iefix') format('embedded-opentype'),
+             url('../fonts/acre-medium-webfont.woff2') format('woff2'),
+             url('../fonts/acre-medium-webfont.woff') format('woff'),
+             url('../fonts/acre-medium-webfont.ttf') format('truetype'),
+             url('../fonts/acre-medium-webfont.svg#acremedium') format('svg');
+        font-weight: normal;
+        font-style: normal;
+
+    }
+
 /*=======================================
     GENERAL STYLES
 ==================================================*/
 
 
-@font-face {
-    font-family: 'acremedium';
-    src: url('../fonts/acre-medium-webfont.eot');
-    src: url('../fonts/acre-medium-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/acre-medium-webfont.woff2') format('woff2'),
-         url('../fonts/acre-medium-webfont.woff') format('woff'),
-         url('../fonts/acre-medium-webfont.ttf') format('truetype'),
-         url('../fonts/acre-medium-webfont.svg#acremedium') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
 
 body {
-    font-family:acremedium;
+          font-family:'acremedium';
     font-size:14px;
-    background-image:url(../img/traveler.jpg);
-    background-size: 1500px;
+    background-image:url(../img/sativa.png);
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family:acremedium;
+    font-family:'acremedium';
 }
 
 h1 {
@@ -46,14 +46,14 @@ h1 {
     font-size:30px;
     text-transform:uppercase;
     text-align:center;
-    color:#4169E1;
+    color:#231d1d;
 }
     h1::after {
         display: block;
 content: "";
 height: 2px;
 width: 150px;
-background: #006eff;
+background: #231d1d;
 margin: 5px auto 40px;
     }
 
@@ -64,11 +64,12 @@ margin: 5px auto 40px;
 
 h2 {
     line-height:50px;
-    color:#ffffff;
+    color:#231d1d;
 }
 h3 {
     line-height:30px;
     padding-bottom:20px;
+    color: #231d1d;
 }
 h4 {
    padding-top: 25px;
@@ -76,6 +77,7 @@ line-height: 40px;
 padding-bottom: 0px;
 font-size: 22px;
 font-weight: 900;
+color: #231d1d;
 
 }
 .adjst {
@@ -118,7 +120,7 @@ section {
 
 .go-marg {
     margin-top:40px;
-    color:#006eff;
+    color:#231d1d;
 }
 
 #home-sec {
@@ -129,13 +131,13 @@ background-attachment: fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
-background-size: 1350px;
+background-size: cover;
 width: 100%;
 display: block;
 height: auto;
  padding-top:190px;
     padding-bottom:200px;
-    color:#ffffff;
+    color:#231d1d;
 }
 
 .head-main {
@@ -143,20 +145,20 @@ height: auto;
     font-weight:900;
     padding:5px;
     text-transform:uppercase;
-    /*text-shadow: -1px 0 #b5b5b5, .5px 0 #b5b5b5, 0 .5px #b5b5b5, 0 -1px #b5b5b5; */
+
 }
 .head-sub-main {
     font-size:23px ;
     font-weight:500;
-    padding:0px 20px 10px 20px;
-    text-transform:uppercase;
+    padding:50px 20px 10px 20px;
+     text-transform:uppercase;
 
 }
 .head-last {
     font-size:18px ;
     font-weight:900;
     padding:5px 20px 20px 20px;
-    border:1px dotted #ffffff;
+    border:1px dotted #231d1d;
     padding:5px;
 }
 
@@ -169,33 +171,31 @@ height: auto;
 }
 
 .navbar-inverse {
-background: transparent;
+background: rgba(0, 0, 0, 0.1);;
 min-height: 60px;
 padding-top: 5px;
 
 }
 
 .navbar-inverse .navbar-nav > .active > a {
-	background: #0000FF;
+	background: #ffffff;
 }
 
 .navbar-inverse .navbar-brand {
-	color: #ffffff;
-  text-shadow: -1px 0 #b5b5b5, .5px 0 #b5b5b5, 0 .5px #b5b5b5, 0 -1px #b5b5b5;
+	color: #231d1d;
 	font-weight: bolder;
 	font-size: 25px;
-  font-weight:900;
+    font-weight:900;
 	letter-spacing: 2px;
 }
 .navbar-inverse :hover .navbar-brand:hover {
-	color: #ffffff;
+	color: #231d1d;
 }
 .navbar-inverse .navbar-nav > li > a {
-color: #FFFFFF;
+color: #231d1d;
 }
 .navbar-inverse {
-border-color: transparent;
-text-shadow: -1px 0 #b5b5b5, .5px 0 #b5b5b5, 0 .5px #b5b5b5, 0 -1px #b5b5b5;
+border-color: rgba(0, 0, 0, 0.2);
 }
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
 border-color: #E91C1C;
@@ -274,7 +274,7 @@ small {
   text-align: center;
   background: #fff;
   padding: 10px;
-  border:1px solid #4169E1;
+  border:1px solid #E8EAEE;
 
 }
 .portfolio-item img {
@@ -289,8 +289,8 @@ small {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
-  background-color: #4169E1;
-  color: #fff;
+  background-color: #E91C1C;
+color: #fff;
 }
 .portfolio-item .overlay {
   position: absolute;
@@ -334,7 +334,7 @@ border: 1px solid #e1e1e1;
 
 
 #footer {
-    background-color:#4169E1;
+    background-color:#E91C1C;
     color:#fff;
     padding:20px 50px 20px 50px;
     text-align:right;
@@ -356,12 +356,3 @@ border: 1px solid #e1e1e1;
         font-size:24px ;
     }
 }
-
-/*
-=========================
-PALETA DE COLORES EN AZUL
-========================
-
-0000FF
-4169E1
-*/

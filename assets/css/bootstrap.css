@@ -2244,16 +2244,16 @@ fieldset[disabled] .btn-warning.active {
   background-color: #fff;
 }
 .btn-danger {
-  color: #fff;
-  background-color: #006eff;
-  border-color: #006eff;
+  color: #231d1d;
+  background-color: #d9534f;
+  border-color: #d43f3a;
 }
 .btn-danger:hover,
 .btn-danger:focus,
 .btn-danger:active,
 .btn-danger.active,
 .open .dropdown-toggle.btn-danger {
-  color: #fff;
+  color: #231d1d;
   background-color: #d2322d;
   border-color: #ac2925;
 }
