@@ -47,6 +47,7 @@ h1 {
     text-transform:uppercase;
     text-align:center;
     color:#231d1d;
+
 }
     h1::after {
         display: block;
@@ -69,7 +70,7 @@ h2 {
 h3 {
     line-height:30px;
     padding-bottom:20px;
-    color: #231d1d;
+    color: #ffffff;
 }
 h4 {
    padding-top: 25px;
@@ -120,7 +121,7 @@ section {
 
 .go-marg {
     margin-top:40px;
-    color:#231d1d;
+    color:#fff;
 }
 
 #home-sec {
@@ -137,7 +138,8 @@ display: block;
 height: auto;
  padding-top:190px;
     padding-bottom:200px;
-    color:#231d1d;
+    color:#fff;
+    text-shadow: .8px .8px #231d1d;
 }
 
 .head-main {
