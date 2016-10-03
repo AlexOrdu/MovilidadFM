@@ -11,7 +11,7 @@
     ========================================================  */
 
 
-    @font-face {
+/*    @font-face {
         font-family: 'acremedium';
         src: url('acre-medium-webfont.eot');
         src: url('../fonts/acre-medium-webfont.eot?#iefix') format('embedded-opentype'),
@@ -22,6 +22,16 @@
         font-weight: normal;
         font-style: normal;
 
+    } */
+
+    @font-face {
+    	font-family: 'ADAM';
+    	src: url('../fonts/ADAM.eot');
+    	src: url('../fonts/ADAM.eot?#iefix') format('embedded-opentype'),
+    		url('../fonts/ADAM.woff') format('woff'),
+    		url('../fonts/ADAM.ttf') format('truetype');
+    	font-weight: normal;
+    	font-style: normal;
     }
 
 /*=======================================
@@ -31,13 +41,13 @@
 
 
 body {
-          font-family:'acremedium';
+          font-family:'ADAM';
     font-size:14px;
     background-image:url(../img/sativa.png);
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family:'acremedium';
+    font-family:'ADAM';
 }
 
 h1 {
@@ -139,14 +149,16 @@ height: auto;
  padding-top:190px;
     padding-bottom:200px;
     color:#fff;
-    text-shadow: .8px .8px #231d1d;
+    text-shadow: .8px .8px rgba(0, 0, 0, 0.2);
 }
 
 .head-main {
-    font-size:60px ;
+    font-size:85px ;
     font-weight:900;
     padding:5px;
     text-transform:uppercase;
+    line-height: 100%;
+    letter-spacing: 25px;
 
 }
 .head-sub-main {
@@ -173,7 +185,7 @@ height: auto;
 }
 
 .navbar-inverse {
-background: rgba(0, 0, 0, 0.1);;
+background: rgba(255, 255, 255, 0.15);;
 min-height: 60px;
 padding-top: 5px;
 
@@ -184,23 +196,37 @@ padding-top: 5px;
 }
 
 .navbar-inverse .navbar-brand {
-	color: #231d1d;
+	color: #ffffff;
 	font-weight: bolder;
 	font-size: 25px;
     font-weight:900;
 	letter-spacing: 2px;
 }
+
+.imgIcon{
+
+  height: 30px;
+
+}
+
+.MiniImg{
+
+  
+
+}
+
 .navbar-inverse :hover .navbar-brand:hover {
 	color: #231d1d;
 }
 .navbar-inverse .navbar-nav > li > a {
-color: #231d1d;
+color: #ffffff;
+text-shadow:.8px .8px rgba(0, 0, 0, 0.2) ;
 }
 .navbar-inverse {
-border-color: rgba(0, 0, 0, 0.2);
+border-color: rgba(255, 255, 255, 0.2);
 }
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-border-color: #E91C1C;
+border-color: #ffffff;
 }
 /*=======================================
     PRICE SECTION STYLES

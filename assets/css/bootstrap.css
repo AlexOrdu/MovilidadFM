@@ -2006,7 +2006,7 @@ select[multiple].input-lg {
       -ms-user-select: none;
           user-select: none;
   background-image: none;
-  border: 1px solid transparent;
+  border: 1.5px solid transparent;
   border-radius: 4px;
 }
 .btn:focus,
@@ -2245,17 +2245,16 @@ fieldset[disabled] .btn-warning.active {
 }
 .btn-danger {
   color: #ffffff;
-  background-color: #d9534f;
-  border-color: #d43f3a;
+  border-color: #ffffff;
 }
 .btn-danger:hover,
 .btn-danger:focus,
 .btn-danger:active,
 .btn-danger.active,
 .open .dropdown-toggle.btn-danger {
-  color: #231d1d;
-  background-color: #d2322d;
-  border-color: #ac2925;
+  color: #428bca;
+  background-color: #ffffff;
+  border-color: #428bca;
 }
 .btn-danger:active,
 .btn-danger.active,
@@ -4040,7 +4039,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
-  color: #fff;
+  color: rgb(0, 158, 204);
   background-color: transparent;
 }
 .navbar-inverse .navbar-nav > .active > a,
