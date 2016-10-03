@@ -2006,7 +2006,7 @@ select[multiple].input-lg {
       -ms-user-select: none;
           user-select: none;
   background-image: none;
-  border: 1.5px solid transparent;
+  border: 1px solid transparent;
   border-radius: 4px;
 }
 .btn:focus,
@@ -2240,12 +2240,13 @@ fieldset[disabled] .btn-warning.active {
   border-color: #eea236;
 }
 .btn-warning .badge {
-  color: #f0ad4e;
+  color: #000000;
   background-color: #fff;
 }
 .btn-danger {
   color: #ffffff;
   border-color: #ffffff;
+
 }
 .btn-danger:hover,
 .btn-danger:focus,
