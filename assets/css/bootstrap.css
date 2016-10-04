@@ -2248,6 +2248,13 @@ fieldset[disabled] .btn-warning.active {
   border-color: #ffffff;
 
 }
+
+.btn-danger2 {
+  color: #ffffff;
+  border-color: #ffffff;
+  background-color: #428bca;
+}
+
 .btn-danger:hover,
 .btn-danger:focus,
 .btn-danger:active,
