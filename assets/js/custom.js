@@ -8,7 +8,7 @@
 
     100% To use For Personal And Commercial Use.
     IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
-   
+
     ========================================================  */
 
 
@@ -18,7 +18,7 @@
 
         main_fun: function () {
             /*====================================
-             CUSTOM LINKS SCROLLING FUNCTION 
+             CUSTOM LINKS SCROLLING FUNCTION
             ======================================*/
 
             $('a[href*=#]').click(function () {
@@ -35,17 +35,17 @@
                     }
                 }
             });
-          
-       
-            // PRETTYPHOTO FUNCTION 
+
+
+            // PRETTYPHOTO FUNCTION
 
             $("a.preview").prettyPhoto({
                 social_tools: false
             });
 
-          
+
             /*====================================
-               WRITE YOUR SCRIPTS BELOW 
+               WRITE YOUR SCRIPTS BELOW
            ======================================*/
 
 
@@ -63,7 +63,7 @@
         mainApp.main_fun();
     });
 
+
+    
+
 }(jQuery));
-
-
-
