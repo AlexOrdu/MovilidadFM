@@ -358,9 +358,6 @@ border-bottom: 1px dotted #e1e1e1;
 
 
 
-
-
-
 /*=======================================
     Contact STYLES
 ==================================================*/
@@ -404,6 +401,35 @@ border: 1px solid #e1e1e1;
 	margin: 0px;
 	box-shadow: 6px 6px 4px 4px rgba(0,0,0,0.3);
 }
+
+/*===================================================
+  Mas Media
+======================================================*/
+
+.mas-popout {
+	margin: 10px;
+	float: left;
+	-webkit-transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+	-o-transition: all ease 0.5s;
+	-ms-transition: all ease 0.5s;
+	transition: all ease 0.5s;
+}
+.mas-popout img {
+  border-radius: 100%;
+	margin: 2px;
+	width: 100%;
+	-webkit-transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+	-o-transition: all ease 0.5s;
+	-ms-transition: all ease 0.5s;
+	transition: all ease 0.5s;
+}
+.mas-popout img:hover {
+	margin: 0px;
+	box-shadow: 6px 6px 4px 4px rgba(0,0,0,0.3);
+}
+
 
 /*=======================================
     FOOTER STYLES
