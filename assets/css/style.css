@@ -274,6 +274,50 @@ small {
     color:#000;
 }
 
+#instit {
+    background-color:#f5f3f3;
+}
+.plan {
+    background: #fff;
+    padding: 0 0 15px 0;
+    margin: 30px 0px;
+    list-style: none;
+    text-align: center;
+
+}
+
+
+
+.plan li {
+   padding: 15px 0px;
+color: #000;
+font-size: 16px;
+border-bottom:1px dotted #e1e1e1;
+}
+
+
+.plan li.plan-head {
+   padding: 40px 0px;
+line-height: 35px;
+font-size: 32px;
+font-weight: 600;
+border: none;
+   }
+
+.plan li.main-price {
+padding: 25px 0px;
+color: #FF8500;
+border: none;
+font-weight: 900;
+font-size: 60px;
+}
+
+small {
+    font-size: 15px;
+    color:#000;
+}
+
+
 /*==========================================
     PORTFOLIO STYLES
     =====================================================*/
