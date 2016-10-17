@@ -137,7 +137,7 @@ section {
 #home-sec {
 
 
-background: url(../img/traveler.jpg) no-repeat 50% 50%;
+background: url(../Snapshots/Airtaxi.jpg) no-repeat 50% 50%;
 background-attachment: fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -353,16 +353,6 @@ small {
   border:1px solid #E8EAEE;
 
 }
-
-.portfolio-item .item-main-imgbtn {
-  
-  margin: 0 10px 10px 0;
-  text-align: center;
-  background: #fff;
-  padding: 10px;
-
-}
-
 .portfolio-item img {
   width: 100%;
 }
@@ -414,6 +404,18 @@ border-bottom: 1px dotted #e1e1e1;
 
 }
 
+
+/*=======================================
+    Aplica Style
+================================================*/
+#aplica-sec {
+     background-color:#ffffff;
+}
+.cnt {
+width: 100%;
+min-height: 350px;
+border: 1px solid #e1e1e1;
+}
 
 
 /*=======================================
@@ -493,8 +495,8 @@ border: 1px solid #e1e1e1;
 
 .imgpin{
 
-  height: 25%;
-  width: 25%;
+  height: 30;
+  width: 30px;
 }
 
 /*=======================================
