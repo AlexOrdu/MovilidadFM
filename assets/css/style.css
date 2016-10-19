@@ -111,6 +111,11 @@ p {
     padding-bottom:40px;
 }
 
+.g-pad-Aplica {
+    padding-top: 110px;
+    padding-bottom:5px;
+}
+
 section {
     padding-top:50px;
     margin-top:50px;
@@ -177,6 +182,66 @@ height: auto;
 }
 
 
+.formAlign{
+
+text-align: center;
+
+}
+
+.Aplica{
+
+text-align: center;
+font-size: 80px;
+
+
+}
+
+#Aplicahome-sec {
+
+
+background: url(../img/doctors.jpg) no-repeat 50% 50%;
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+width: 100%;
+display: block;
+height: auto;
+ padding-top:190px;
+    padding-bottom:200px;
+    color:#fff;
+    text-shadow: .8px .8px rgba(0, 0, 0, 0.2);
+}
+
+.head-main {
+    font-size:85px ;
+    font-weight:900;
+    padding:5px;
+    text-transform:uppercase;
+    line-height: 100%;
+    letter-spacing: 25px;
+
+}
+.head-sub-main {
+    font-size:23px ;
+    font-weight:500;
+    padding:50px 20px 10px 20px;
+     text-transform:uppercase;
+
+}
+.head-last {
+    font-size:18px ;
+    font-weight:900;
+    padding:5px 20px 20px 20px;
+    border:1px dotted #231d1d;
+    padding:5px;
+}
+
+
+
+
+
 /* ===========================================================
    NAVBAR CHANGES
    ============================================================*/
@@ -232,17 +297,26 @@ border-color: #ffffff;
     PRICE SECTION STYLES
 ==================================================*/
 #price-sec {
-    background-color:#f5f3f3;
+    background-image: url("../img/staff/centro.jpg");
+    background-size: 1550px 1000px;
+    background-repeat: no-repeat;
 }
 .plan {
     background: #fff;
-    padding: 0 0 15px 0;
+    padding: 0 0 50px 0;
     margin: 30px 0px;
     list-style: none;
     text-align: center;
 
 }
 
+.pad1{
+
+padding-top: 240px;
+padding-bottom: 200px;
+padding-left: 30px;
+
+}
 
 
 .plan li {
