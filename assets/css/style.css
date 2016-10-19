@@ -298,7 +298,7 @@ border-color: #ffffff;
 ==================================================*/
 #price-sec {
     background-image: url("../img/staff/centro.jpg");
-    background-size: 1550px 1000px;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 .plan {
@@ -491,6 +491,17 @@ min-height: 350px;
 border: 1px solid #e1e1e1;
 }
 
+
+
+#aplicaindex-sec {
+     background-image: url("../img/arena.jpg");
+     background-attachment: fixed;
+}
+.cnt {
+width: 100%;
+min-height: 350px;
+border: 1px solid #e1e1e1;
+}
 
 /*=======================================
     Contact STYLES
