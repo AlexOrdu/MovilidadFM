@@ -199,7 +199,7 @@ font-size: 80px;
 #Aplicahome-sec {
 
 
-background: url(../img/doctors.jpg) no-repeat 50% 50%;
+background: url(../img/topbackground.jpg) no-repeat 50% 50%;
 background-attachment: fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -209,7 +209,7 @@ width: 100%;
 display: block;
 height: auto;
  padding-top:190px;
-    padding-bottom:200px;
+    padding-bottom:605px;
     color:#fff;
     text-shadow: .8px .8px rgba(0, 0, 0, 0.2);
 }
@@ -352,8 +352,16 @@ small {
       INSTI STYLE
 =============================*/
 
+.padimg{
+  padding-top: 150px;
+  padding-bottom: 160px;
+
+}
+
 #instit {
-    background-color:#f5f3f3;
+    background-image: url("../img/middle.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
 }
 .plan {
     background: #fff;
@@ -496,6 +504,21 @@ border: 1px solid #e1e1e1;
 #aplicaindex-sec {
      background-image: url("../img/arena.jpg");
      background-attachment: fixed;
+}
+.cnt {
+width: 100%;
+min-height: 350px;
+border: 1px solid #e1e1e1;
+}
+
+
+#programas-sec {
+     background-image: url("../img/bottombackground.jpg");
+     background-size: 1520px 1100px;
+     background-size: cover;
+     background-repeat: no-repeat;
+     padding-top: 830px;
+     padding-left: 10px;
 }
 .cnt {
 width: 100%;
