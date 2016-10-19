@@ -348,6 +348,19 @@ small {
     color:#000;
 }
 
+
+
+
+.name{
+
+  font-size: 14px;
+}
+
+.desc{
+  font-size: 10px;
+}
+
+
 /*========================
       INSTI STYLE
 =============================*/
@@ -481,7 +494,6 @@ color: #fff;
     Conoce más
 ==================================================*/
 .mas{
-  padding: 15px 0px;
 border-bottom: 1px dotted #e1e1e1;
 
 }
@@ -601,11 +613,7 @@ border: 1px solid #e1e1e1;
 
 
 
-.imgpin{
 
-  height: 30;
-  width: 30px;
-}
 
 /*=======================================
     FOOTER STYLES
