@@ -142,7 +142,7 @@ section {
 #home-sec {
 
 
-background: url(../Snapshots/Airtaxi.jpg) no-repeat 50% 50%;
+/*background: url(../Snapshots/Airtaxi.jpg) no-repeat 50% 50%;*/
 background-attachment: fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -151,16 +151,61 @@ background-size: cover;
 width: 100%;
 display: block;
 height: auto;
- padding-top:190px;
-    padding-bottom:200px;
-    color:#fff;
-    text-shadow: .8px .8px rgba(0, 0, 0, 0.2);
+color:#fff;
+text-shadow: .8px .8px rgba(0, 0, 0, 0.2);
+}
+
+.homepage-hero-module {
+    border-right: none;
+    border-left: none;
+    position: relative;
+}
+.no-video .video-container video,
+.touch .video-container video {
+    display: none;
+}
+.no-video .video-container .poster,
+.touch .video-container .poster {
+    display: block !important;
+}
+.video-container {
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: #000;
+}
+.video-container .poster img {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+.video-container .filter {
+    z-index: 100;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+}
+.video-container video {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+}
+.video-container video.fillWidth {
+    width: 100%;
+}
+
+.padhome{
+padding-top: 230px;
+padding-bottom: 200px;
+
 }
 
 .head-main {
     font-size:85px ;
     font-weight:900;
-    padding:5px;
     text-transform:uppercase;
     line-height: 100%;
     letter-spacing: 25px;
@@ -169,14 +214,14 @@ height: auto;
 .head-sub-main {
     font-size:23px ;
     font-weight:500;
-    padding:50px 20px 10px 20px;
+    padding:0px 20px 10px 20px;
      text-transform:uppercase;
 
 }
 .head-last {
     font-size:18px ;
     font-weight:900;
-    padding:5px 20px 20px 20px;
+    padding:0px 20px 20px 20px;
     border:1px dotted #231d1d;
     padding:5px;
 }
@@ -366,7 +411,7 @@ small {
 =============================*/
 
 .padimg{
-  padding-top: 150px;
+  padding-top: 90px;
   padding-bottom: 160px;
 
 }
@@ -514,7 +559,7 @@ border: 1px solid #e1e1e1;
 
 
 #aplicaindex-sec {
-     background-image: url("../img/arena.jpg");
+     /*background-image: url("../img/arena.jpg");*/
      background-attachment: fixed;
 }
 .cnt {
