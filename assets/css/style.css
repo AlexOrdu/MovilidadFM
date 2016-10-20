@@ -557,18 +557,6 @@ border: 1px solid #e1e1e1;
 }
 
 
-
-#aplicaindex-sec {
-     /*background-image: url("../img/arena.jpg");*/
-     background-attachment: fixed;
-}
-.cnt {
-width: 100%;
-min-height: 350px;
-border: 1px solid #e1e1e1;
-}
-
-
 #programas-sec {
      background-image: url("../img/bottombackground.jpg");
      background-size: 1520px 1100px;
