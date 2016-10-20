@@ -538,6 +538,48 @@ min-height: 350px;
 border: 1px solid #e1e1e1;
 }
 
+
+.btnaplica{
+
+  background-color: #4CAF50; /* Green */
+      border: none;
+      color: white;
+      padding: 16px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.4s;
+      cursor: pointer;
+}
+
+.btnaplica1{
+  background-color: rgba(255, 0, 0, 0.0);
+  color: black;
+
+}
+
+.btnaplica1:hover{
+
+    background-color: #f44336;
+    color: white;
+}
+
+.btnaplica2{
+  background-color: rgba(255, 0, 0, 0.0);
+  color: black;
+
+
+}
+
+.btnaplica2:hover{
+  background-color: #428bca;
+  color: white;
+
+}
+
 /*=======================================
     Contact STYLES
 ==================================================*/
