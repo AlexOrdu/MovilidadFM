@@ -541,8 +541,8 @@ border: 1px solid #e1e1e1;
 
 .btnaplica{
 
-  background-color: #4CAF50; /* Green */
       border: none;
+      border-radius: 10px;
       color: white;
       padding: 16px 32px;
       text-align: center;
